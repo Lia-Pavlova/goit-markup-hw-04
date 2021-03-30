@@ -152,13 +152,12 @@ nav {
   color: var(--primary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .icon-contacts {
   margin-right: 10px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   fill: var(--primary-text-color);
 }
 .contacts .link:hover .icon-contacts,
@@ -458,6 +457,7 @@ header > .container {
   border-right: 1px solid var(--border-examples);
   border-bottom: 1px solid var(--border-examples);
   border-left: 1px solid var(--border-examples);
+  background-color: var(--dark-bg-text-color);
 }
 
 .portfolio-title {
@@ -473,6 +473,7 @@ header > .container {
   font-size: 16px;
   line-height: 1.87;
   margin-bottom: 0;
+  color: var(--primary-text-color);
 }
 
 .examples a {
